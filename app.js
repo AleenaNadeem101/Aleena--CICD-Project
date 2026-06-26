@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end("Hello Aleena CI/CD Pipeline - v1\n");
+  res.end("Hello Aleena CI/CD Pipeline - v2\n");
 });
 
 const PORT = 3000;
